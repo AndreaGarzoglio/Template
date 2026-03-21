@@ -1,0 +1,31 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template repository with linter and prettier",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaGarzoglio/Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AndreaGarzoglio/Template/issues"
+  },
+  "homepage": "https://github.com/AndreaGarzoglio/Template#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1"
+  }
+}
